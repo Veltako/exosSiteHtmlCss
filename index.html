@@ -52,36 +52,20 @@
             </div>
         </div>
 
-
-
-
-
-
-
         <!-- les cartes qui décrivent les services vendus -->
-        <div class="container-description">
-            <div class="header-widgets-three header-widgets-left">
-                <div class="header-widget widget">
-                    <div class="wp-block-group">
-                        <div class="wp-block-group__inner-container">
-                            <h3 class="block-heading">SEO OPTIMIZED</h3>
-                            <p class="text-align">Accus antium et dolor emque veri tatis archi tecto, eaque ipsa quae ab
-                                illo inven tore veri tatis
-                                pers piciatis. Sed ut iste natus volupt atem frin gilla tempor dignis sim at.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-widgets-three header-widgets-middle">
-                <h3 class="block-heading">EASY TO USE</h3>
-                <p>Accus antium et dolor emque veri tatis archi tecto, eaque ipsa quae ab illo inven tore veri tatis
-                    pers piciatis. Sed ut iste natus volupt atem frin gilla tempor dignis sim at.</p>
-            </div>
-            <div class="header-widgets-three header-widgets-right">
-                <h3 class="block-heading">RESPONSIVE</h3>
-                <p>Accus antium et dolor emque veri tatis archi tecto, eaque ipsa quae ab illo inven tore veri tatis
-                    pers piciatis. Sed ut iste natus volupt atem frin gilla tempor dignis sim at.</p>
-            </div>
+        <div class="container-card-bottom-header">
+            <fieldset class="card-bottom-header">
+                <legend>SEO OPTIMIZED</legend>
+                <p>Accus antium et dolor emque veri tatis archi tecto, eaque ipsa quae ab illo inven tore veri tatis pers piciatis. Sed ut iste natus volupt atem frin gilla tempor dignis sim at.</p>
+            </fieldset>
+            <fieldset class="card-bottom-header">
+                <legend>EASY TO USE</legend>
+                <p>Accus antium et dolor emque veri tatis archi tecto, eaque ipsa quae ab illo inven tore veri tatis pers piciatis. Sed ut iste natus volupt atem frin gilla tempor dignis sim at.</p>
+            </fieldset>
+            <fieldset class="card-bottom-header">
+                <legend>RESPONSIVE</legend>
+                <p>Accus antium et dolor emque veri tatis archi tecto, eaque ipsa quae ab illo inven tore veri tatis pers piciatis. Sed ut iste natus volupt atem frin gilla tempor dignis sim at.</p>
+            </fieldset>
         </div>
     </section>
 
@@ -90,33 +74,36 @@
 
 
 
-
+    <main>
+        
     <!-- à droite du contenu de article -->
     <aside>
         <!-- une carte qui décrit la personne -->
-        <div class="card-aboutme-aside">
-            <h3>ABOUT ME</h3>
+        <fieldset class="card-aside first-card-aside">
+            <legend>ABOUT ME</legend>
             <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/content-2.png">
             <p>Etiam placerat velit vitae dui blan dit sol licitu din. Vesti bulum tinc idunt sed dolor sit amet volut
                 pat. Nul lam ege stas.</p>
             <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/signature-300x71.png"
                 alt="Jenifer Carter">
-        </div>
+        </fieldset>
         <!-- une carte qui permet d'avoir un abonnement -->
-        <div class="card-newsletter-aside">
-            <h3>NEWSLETTER</h3>
+        <fieldset class="card-aside">
+            <legend>NEWSLETTER</legend>
             <div class="newsletter">
-                <input type="email" name="newsletter" id="">
-                <button type="submit"></button>
+                <input type="email" name="newsletter" value="Your Email Address...">
+                <button type="submit" class="signup"><p>Sign Up</p></button>
             </div>
-        </div>
-        <div class="card-popular-posts-aside">
+        </fieldset>
+        <fieldset class="card-aside">
+            <legend>Popular Posts</legend>
             <div class="post-popular-aside">
-                <img
-                    src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-2-150x150.jpg">
+                <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-2-150x150.jpg">
                 <div class="text-post-footer">
-                    <h3>Nothing Beats New York</h3>
-                    <p>August 24, 2022</p>
+                    <ul>
+                        <li><h3>Nothing Beats New York</h3></li>
+                        <li><p>August 24, 2022</p></li>
+                    </ul>
                 </div>
             </div>
             <span></span>
@@ -155,7 +142,7 @@
                     <p>July 31, 2022</p>
                 </div>
             </div>
-        </div>
+        </fieldset>
     </aside>
 
 
@@ -163,7 +150,7 @@
 
 
 
-    <!-- le "main" -->
+    <!-- les articles -->
     <article>
         <div class="container-card-article">
             <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-2-850x341.jpg"
@@ -218,6 +205,7 @@
         <button><a href="#">2</a></button>
         <button><a href="#">Next</a></button>
     </article>
+    </main>
 
 
 
