@@ -1,19 +1,22 @@
+/* la partie sous la NavBar */
 section {
-    background-color: aqua;
     padding-top: 40px;
+    width: var(--largeurpage);
 }
-
+/* l'image avec le texte */
 section .container-img-blog {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* le conteneur des figcaption */
 section .container-img-blog .bottom-header-txt-wrap {
     position: absolute;
     text-align: center;
 }
 
+/* les trois figcaption */
 section .container-img-blog .bottom-header-txt-wrap figcaption {
     color: white;
     margin-bottom: 10px;
@@ -22,13 +25,18 @@ section .container-img-blog .bottom-header-txt-wrap figcaption {
     font-size: 18px;
 }
 
+/* le deuxième */
 section .container-img-blog .bottom-header-title {
     font-size: 55px !important;
     margin-top: 15px;
 }
 
+/* le dernier figcaption */
 section .container-img-blog .bottom-header-below-title {
     margin-top: 15px;
 }
 
-section div img {}
+/* les cards sous l'image */
+.container-description{
+    background-color: aqua;
+}
