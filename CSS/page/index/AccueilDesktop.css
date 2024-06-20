@@ -1,5 +1,6 @@
 section {
-    padding-top: 40px;
+    background-color: aqua;
+    width: var(--largeurpage);
 }
 
 section .container-img-blog {
@@ -30,6 +31,4 @@ section .container-img-blog .bottom-header-below-title {
     margin-top: 15px;
 }
 
-section div img {
-
-}
+section div img {}
