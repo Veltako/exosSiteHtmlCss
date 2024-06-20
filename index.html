@@ -4,28 +4,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
     <title>Document</title>
 </head>
 
 <body>
+
+    <!-- le haut de la page qui sera repris sur toutes les autres pages -->
     <header>
-        <div class="title">Minimalist Blogger</div>
+        <!-- image de calligraphie "Minimalist Blogger" -->
+        <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/logo.png"
+            alt="Titre Minimalist Blogger">
+        <!-- la navigation qui permet d'aller sur les autres pages -->
         <nav>
             <ul>
-                <li class="active">BLOG</li>
-                <li>TRAVEL</li>
-                <li>LIFESTYLE</li>
-                <li>WRITING</li>
-                <li>ABOUT</li>
-                <li>CONTACT</li>
+                <!-- la classe .active qui permet de la personnaliser si on veut un hover -->
+                <li class="active"><a href="#">BLOG</a></li>
+                <li><a href="#">TRAVEL</a></li>
+                <li><a href="#">LIFESTYLE</a></li>
+                <li><a href="#">WRITING</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div class="container-img-blog"></div>
-        <img src="" alt="">
 
+
+
+
+
+
+
+
+    <!-- le bottom header -->
+    <section>
+        <!-- la première image qu'on voit sur le site -->
+        <div class="container-img-blog">
+            <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/10/header-image-5.png">
+            <!-- du texte en figcaption -->
+             <div class="bottom-header-txt-wrap">
+                <figcaption class="bottom-header-tagline">SEO OPTIMIZED / FAST / BEAUTIFUL</figcaption>
+                <figcaption class="bottom-header-title">Simple But Significant</figcaption>
+                <figcaption class="bottom-header-below-title">CREATE YOUR WEBSITE EASILY</figcaption>    
+             </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- les cartes qui décrivent les services vendus -->
+        <div class="container-description">
+            <div class="description d1">
+                <h3>SEO OPTIMIZED</h3>
+                <p>Accus antium et dolor emque veri tatis archi tecto, eaque ipsa quae ab illo inven tore veri tatis
+                    pers piciatis. Sed ut iste natus volupt atem frin gilla tempor dignis sim at.</p>
+            </div>
+            <div class="description d2">
+                <h3>EASY TO USE</h3>
+                <p>Accus antium et dolor emque veri tatis archi tecto, eaque ipsa quae ab illo inven tore veri tatis
+                    pers piciatis. Sed ut iste natus volupt atem frin gilla tempor dignis sim at.</p>
+            </div>
+            <div class="description d3">
+                <h3>RESPONSIVE</h3>
+                <p>Accus antium et dolor emque veri tatis archi tecto, eaque ipsa quae ab illo inven tore veri tatis
+                    pers piciatis. Sed ut iste natus volupt atem frin gilla tempor dignis sim at.</p>
+            </div>
+        </div>
     </section>
+
+
+
+
+
+
+
+    <!-- à droite du contenu de article -->
+    <aside>
+        <!-- une carte qui décrit la personne -->
+        <div class="card-aboutme-aside">
+            <h3>ABOUT ME</h3>
+            <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/content-2.png">
+            <p>Etiam placerat velit vitae dui blan dit sol licitu din. Vesti bulum tinc idunt sed dolor sit amet volut
+                pat. Nul lam ege stas.</p>
+            <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/signature-300x71.png"
+                alt="Jenifer Carter">
+        </div>
+        <!-- une carte qui permet d'avoir un abonnement -->
+        <div class="card-newsletter-aside">
+            <h3>NEWSLETTER</h3>
+            <div class="newsletter">
+                <input type="email" name="newsletter" id="">
+                <button type="submit"></button>
+            </div>
+        </div>
+        <div class="card-popular-posts-aside">
+            <div class="post-popular-aside">
+                <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-2-150x150.jpg">
+                <div class="text-post-footer">
+                    <h3>Nothing Beats New York</h3>
+                    <p>August 24, 2022</p>
+                </div>
+            </div>
+            <span></span>
+            <div class="post-popular-aside">
+                <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-3-1-150x150.png">
+                <div class="text-post-footer">
+                    <h3>The Joys Of Being A Morning Person</h3>
+                    <p>August 18, 2022</p>
+                </div>
+            </div>
+            <span></span>
+            <div class="post-popular-aside">
+                <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-3-150x150.png">
+                <div class="text-post-footer">
+                    <h3>Getting What You Want</h3>
+                    <p>August 9, 2022</p>
+                </div>
+            </div>
+            <span></span>
+            <div class="post-popular-aside">
+                <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-4-150x150.png">
+                <div class="text-post-footer">
+                    <h3>What I've learned from road trips</h3>
+                    <p>August 3, 2022</p>
+                </div>
+            </div>
+            <span></span>
+            <div class="post-popular-aside">
+                <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-10-150x150.png">
+                <div class="text-post-footer">
+                    <h3>A quick beginner's guide to writing</h3>
+                    <p>July 31, 2022</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+
+
+
+
+    <!-- le "main" -->
+    <article>
+        <div class="container-card-article">
+            <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-2-850x341.jpg"
+                alt="New York">
+            <h4><a href="#">Nothing Beats New York</a></h4>
+            <span></span>
+            <h5>Posted on August 24, 2022 by John Doe</h5>
+            <span></span>
+            <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat.
+                Nullam egestas sem at mollis sodales. Nunc eget lacinia eros, ut tincidunt nunc. Quisque volutpat, enim
+                id volutpat interdum, purus odio euismod neque, sit amet faucibus justo dolor tincidunt dui. Nulla
+                facilisi. Phasellus in tincidunt lacus, in gravida ipsum. Cras id…</p>
+            <button><a href="#">Read more</a></button>
+        </div>
+        <div class="container-card-article">
+            <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-3-1.png">
+            <h4><a href="#"></a></h4>
+            <span></span>
+            <h5>Posted on August 18, 2022 by John Doe</h5>
+            <span></span>
+            <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat.
+                Nullam egestas sem at mollis sodales. Nunc eget lacinia eros, ut tincidunt nunc. Quisque volutpat, enim
+                id volutpat interdum, purus odio euismod neque, sit amet faucibus justo dolor tincidunt dui. Nulla
+                facilisi. Phasellus in tincidunt lacus, in gravida ipsum. Cras id…</p>
+            <button><a href="#">Read more</a></button>
+        </div>
+        <div class="container-card-article">
+            <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-3.png">
+            <h4><a href="#"></a></h4>
+            <span></span>
+            <h5>Posted on August 9, 2022 by John Doe</h5>
+            <span></span>
+            <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat.
+                Nullam egestas sem at mollis sodales. Nunc eget lacinia eros, ut tincidunt nunc. Quisque volutpat, enim
+                id volutpat interdum, purus odio euismod neque, sit amet faucibus justo dolor tincidunt dui. Nulla
+                facilisi. Phasellus in tincidunt lacus, in gravida ipsum. Cras id…</p>
+            <button><a href="#">Read more</a></button>
+        </div>
+        <div class="container-card-article">
+            <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-4.png">
+            <h4><a href="#"></a></h4>
+            <span></span>
+            <h5>Posted on August 3, 2022 by John Doe</h5>
+            <span></span>
+            <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat.
+                Nullam egestas sem at mollis sodales. Nunc eget lacinia eros, ut tincidunt nunc. Quisque volutpat, enim
+                id volutpat interdum, purus odio euismod neque, sit amet faucibus justo dolor tincidunt dui. Nulla
+                facilisi. Phasellus in tincidunt lacus, in gravida ipsum. Cras id…</p>
+            <button><a href="#">Read more</a></button>
+        </div>
+        <button><a href="#" class="active">1</a></button>
+        <button><a href="#">2</a></button>
+        <button><a href="#">Next</a></button>
+    </article>
+
+
+
+
+
+
+
+
+
+    <!-- pied de page -->
+    <footer>
+        <div class="info-footer">
+            <div class="container-text-footer">
+                <h3>ABOUT ME</h3>
+                <span class="small-line"></span>
+                <p>Sed ut perspiciatis unde omnis iste natus voluptatem fringilla tempor dignissim at, pretium et arcu. Sed ut perspiciatis unde omnis iste tempor dignissim at, pretium et arcu natus voluptatem fringilla.</p>
+                <div class="social-footer">
+                    <button>Logo</button>
+                    <button>Logo</button>
+                    <button>Logo</button>
+                    <button>Logo</button>
+                </div>
+            </div>
+            <div class="container-text-footer">
+                <h3>RECENT POSTS</h3>
+                <span class="small-line"></span>
+                <div class="post-footer">
+                    <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-2-150x150.jpg" alt="">
+                    <div class="text-post-footer">
+                        <h3>NOTHING BEATS NEW YORK</h3>
+                        <p>August 24, 2022</p>
+                    </div>
+                </div>
+                <span></span>
+                <div class="post-footer">
+                    <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-3-1-150x150.png" alt="">
+                    <div class="text-post-footer">
+                        <h3>THE JOYS OF BEING A MORNING</h3>
+                        <p>August 18, 2022</p>
+                    </div>
+                </div>
+                <span></span>
+                <div class="post-footer">
+                    <img src="https://superbdemo.com/themes/minimalistblogger/wp-content/uploads/2022/08/featured-img-3-150x150.png" alt="">
+                    <div class="text-post-footer">
+                        <h3>GETTING WHAT YOU WANT</h3>
+                        <p>August 9, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-text-footer">
+                <h3>ABOUT ME</h3>
+                <span class="small-line"></span>
+                <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales</p>
+                <div class="inscription-newsletter">
+                    <input type="email" name="newsletter" id="">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <span></span>
+        <p>&#169;2024 Minimalist Blogger | A WordPress theme by SuperbThemes</p>
+    </footer>
 </body>
 
 </html>

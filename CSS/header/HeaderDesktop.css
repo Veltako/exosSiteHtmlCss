@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+header img{
+    width: 618px; 
+    height: 162px;
+    margin: 30px 0;
+}
+header nav{
+    width: var(--largeurpage);
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 1rem;
+}
+header nav ul li a{
+    padding: 15px;
+}
