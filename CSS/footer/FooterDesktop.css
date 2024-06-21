@@ -1,1 +1,83 @@
-footer{}
+footer {
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .separate {
+    width: var(--largeurpage);
+    border-bottom: 1px solid grey;
+}
+
+.info-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: var(--largeurpage);
+    margin: 50px 0;
+}
+
+.container-text-footer:first-of-type,
+.container-text-footer:last-of-type {
+    max-width: 33.33%;
+}
+
+.container-text-footer h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.container-text-footer img {
+    width: 45px;
+}
+
+.container-text-footer {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-line {
+    border-bottom: 1px solid grey;
+    width: 30px !important;
+    margin: 10px 0 !important;
+}
+
+.middle-footer-info {
+    margin: 0 30px;
+}
+
+.middle-footer-info p {
+    color: white;
+}
+
+.wp-footer-tag {
+    margin: 10px 0;
+    color: gray;
+}
+.post-footer{
+    display: flex;
+    align-items: center;
+}
+.text-post-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.text-post-footer h3{
+    font-size: 14px;
+}
+.text-post-footer p{
+    font-size: 10px;
+}
+.middle-footer-info span{
+    width: 100%;
+    border-bottom: 1px solid grey;
+    margin: 20px 0;
+}

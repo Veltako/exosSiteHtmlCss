@@ -154,10 +154,6 @@ aside {
     margin-left: 10px;
 }
 
-.text-post-aside ul {
-    list-style-type: none;
-}
-
 .post-popular-aside h3 {
     font-size: 12px;
     font-weight: 400;
@@ -173,7 +169,6 @@ article {
     flex-direction: column;
     align-items: center;
 }
-
 .container-card-article {
     display: flex;
     flex-direction: column;
@@ -181,6 +176,7 @@ article {
     border: 1px solid black;
     padding: 20px;
     margin: 12px 30px;
+    margin-left: 0;
 }
 
 .container-card-article h4 {

@@ -1,1 +1,3 @@
-@import url();
+@import url(/CSS/footer/FooterDesktop.css);
+@import url(/CSS/footer/FooterTablet.css);
+@import url(/CSS/footer/FooterMobile.css);
